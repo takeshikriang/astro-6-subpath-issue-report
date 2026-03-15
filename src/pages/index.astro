@@ -1,0 +1,16 @@
+---
+import Layout from "#layouts/Layout.astro";
+import { Title } from "#components/title";
+import { ButtonA } from "#components/button-a"; // Not working
+import { ButtonB } from "../components/button-b"; // Working
+---
+
+<Layout>
+  <div class="container p-4 space-y-4">
+    <Title />
+    <div class="inline-flex gap-4">
+      <ButtonA client:load />
+      <ButtonB client:load />
+    </div>
+  </div>
+</Layout>
