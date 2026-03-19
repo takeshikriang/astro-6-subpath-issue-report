@@ -1,5 +1,9 @@
 # Astro 6 Subpath Issue Report
 
+This repo is created to reproduce the bug related to subpath import.
+
+See the reported issue [here](https://github.com/withastro/astro/issues/15922#event-23686455097).
+
 ## Commands
 
 All commands are run from the root of the project, from a terminal:
